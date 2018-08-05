@@ -25,7 +25,7 @@ amd64-build:
 	    --tag $(IMAGE_NAME)-amd64 .
 
 amd64-push: amd64-build
-	docker push $(IMAGE_TAG)-amd64
+	docker push $(IMAGE_NAME)-amd64
 
 arm32v6-build:
 	docker build \
