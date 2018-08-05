@@ -1,0 +1,5 @@
+version: "2"
+
+services:
+    beanstalk:
+        image: foobox/beanstalkd:1.10
